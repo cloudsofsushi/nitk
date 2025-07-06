@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+            <title>NIT kkr website design</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            </head>
+            <body>
+               <section class="sub-header">
+                <nav>
+                   <a href="main.html"><img src="Images/logo.png"></a>
+                  <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                    <li><a href="Blog.html.html">BLOG</a></li>
+                   </ul>
+                  </div>
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+                 </nav>
+  <h1>About Us</h1>
+
+ </section>
+
+<!-----about us content------>
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>We are the world's largest university</h1>
+      <p>National Institute of Technology (NIT), Kurukshetra, was established in 1963 and is an Institute of National Importance. It is one of the 31 NITs set up by the Government of India to provide students with best-in-class technical education. The Institute has been ranked 27 for Engineering by The Week 2020 and 40 for NITs by NIRF 2020. NIT Kurukshetra admission 2021 is basically an entranced based institute. Various kind
+ of national level entrance tests is used for the selection process like JEE Main, JEE Advanced, GATE, etc.NIT Kurukshetra offers a four-year BTech programme at the UG level. Admission to the programme is based on JEE Main rank, followed by Joint Seat Allocation Authority (JoSAA) Counselling. The institute-specific qualifying cutoff is announced after the declaration of JEE Main 2020 result to manage the seat allotment process. The seat allotment process is based on the college cutoff and the candidate's preference for courses and colleges. The cutoffs are generally declared in seven rounds of JoSAA Counselling based on opening and closing ranks for each of the programme-specific specialisations. However, amidst the Covid-19 situation, only six rounds of counselling are conducted. The cutoffs are further divided into gender and various categories such as SC, ST, OBC, PwD, etc.
+
+NIT Kurukshetra offers BTech as the only UG course that has 7 specialisations. It is a full-time course with 4 years of durations.
+</p>
+  <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+      <img src="Images/joy.jpeg">
+    </div>
+  </div>
+</section>
+
+
+<!------Footer-------->
+<section class="footer">
+   <h4>About Us</h4>
+   <p>This site is designed to meet the needs of students world-wide, so that they can access direct information.
+</p>
+  <div class="icons">
+     <i class="fa fa-facebook"></i> 
+     <i class="fa fa-twitter"></i> 
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-linkedin"></i> 
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by Sushmita, IT-A-1, 12013080.</p>
+</section>
+<!------Javascript for toggle menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+   }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+            <title>NIT kkr website design</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            </head>
+            <body>
+               <section class="sub-header">
+                <nav>
+                   <a href="main.html"><img src="Images/logo.png"></a>
+                  <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                    <li><a href="Blog.html.html">BLOG</a></li>
+                   </ul>
+                  </div>
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+                 </nav>
+  <h1>Our Courses</h1>
+
+ </section>
+
+<!-----Course------>
+<section class="course">
+   <h1>Courses We Offer</h1>
+   <p>We provide courses in various fields.</p>
+
+<div class="row">
+  <div class="course-col">
+<h3>B.tech/M.tech</h3>
+<p>Our university provide B.tech and M.tech courses on basis of JEE Main score, for seven streams i.e, ECE, CS, IT, ME, IEM, EE, CE.NIT Kurukshetra Admission for 
+foreigners is done through DASA(Direct admission of students abroad).
+</p>
+  </div>
+ <div class="course-col">
+<h3>Ph.D</h3>
+<p>The NIT Kurukshetra PhD program is for 5 years; the applicant can pursue the program both Full-time and Part-time. Candidate having Bachelor's degree need to have a 
+minimum of 10 years of work experience to get admission in Ph.D program.
+</p>
+  </div>
+ <div class="course-col">
+<h3>MCA</h3>
+<p>NIT Kurukshetra offers an MCA program in full-time mode only. The maximum duration of the MCA program is 2 years. The highest placement package offered to MCA student was INR
+13.27 LPA.
+</p>
+  </div>
+</div>
+
+</section>
+
+<!------facilities----->
+<section class="facilities">
+  <h1>Our Facilities</h1>
+  <p>World class facilities are provided to meet the potential of students.</p>
+
+<div class="row">
+ <div class="facilities-col">
+    <img src="Images/library-view.jpg">
+    <h3>World Class Library</h3>
+    <p>The Library initially set up in 1965 has grown in size, collection and services. Presently NIT Kurukshetra has a very spacious Library with good collection of documents, which includes text and reference books, CD- ROMs and large number of Print & Online Journals and e-books. With its growing resources, space & services, the Library caters to the need of faculty, research scholars and students.
+</p>
+ </div>
+ <div class="facilities-col">
+    <img src="Images/sports.jpg">
+    <h3>Athletics</h3>
+    <p>Extensive and well laid out fields for sports and games are available on the campus. Badminton courts, tennis courts, cricket pitch, hockey ground, football ground, volleyball court with lights and basketball court with lights, Kabaddi ground and a stadium etc. are some of the facilities available to the students.
+</p>
+ </div>  
+  <div class="facilities-col">
+    <img src="Images/hostel.jpg">
+    <h3>Fully Facilitated Hostels</h3>
+    <p>NIT Kurukshetra has nine boys and three girls hostels. Three boys hostels are triple bedded and the rest are single bedded. All the rooms in Post-graduate hostel are single bedded. All the hostels are named alphabetically from A to I.
+</p>
+ </div> 
+</div>
+</section>
+
+<!------Footer-------->
+<section class="footer">
+   <h4>About Us</h4>
+   <p>Hello every one my name is sushmita. My age is going to be 20 this coming september. I am studying as a bachelor student at NIT Kurukshetra. I am very proud be a student there.
+           </p>
+  <div class="icons">
+     <i class="fa fa-facebook"></i> 
+     <i class="fa fa-twitter"></i> 
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-linkedin"></i> 
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by Sushmita, IT-A-1, 12013080.</p>
+</section>
+<!------Javascript for toggle menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+   }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+}
+</script>
+</body>
+</html>
